@@ -1,0 +1,99 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-image: url('img/Newimagefolder/your-background-image.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Banner Styles */
+.banner {
+  background-color: rgba(0, 51, 102, 0.9);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+  width: 100%;
+  margin: 0;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.banner h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 18px;
+}
+
+.subtitle {
+  font-style: italic;
+  font-size: 20px;
+}
+
+/* Content Section Styles */
+.content-section {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 40px 30px;
+  margin: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.content-section h2 {
+  color: #003366;
+  font-size: 32px;
+  margin-bottom: 15px;
+  border-bottom: 3px solid #003366;
+  padding-bottom: 10px;
+}
+
+.content-section p {
+  color: #333;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* Footer Styles */
+footer {
+  margin-top: 30px;
+}
+
+/* Responsive Design for smaller screens */
+@media (max-width: 600px) {
+  .banner h1 {
+    font-size: 32px;
+  }
+
+  .banner h2 {
+    font-size: 24px;
+  }
+
+  .content-section {
+    margin: 15px;
+    padding: 25px 15px;
+  }
+
+  .content-section h2 {
+    font-size: 24px;
+  }
+
+  .content-section p {
+    font-size: 14px;
+  }
+}
